@@ -1,0 +1,31 @@
+.sidebar-brand {
+    display: flex;
+    justify-content: center;
+    align-self:center;
+}
+.test {
+    width: 8vh;
+    height: 8vh;
+}
+
+.sidebar {
+    background-color: #9C0C00;
+}
+
+.collapse-inner {
+    background-color: maroon;
+}
+
+.collapse-item {
+    color: aqua;
+}
+
+.sidebar .nav-item .collapse .collapse-inner .collapse-item,
+.sidebar .nav-item .collapsing .collapse-inner .collapse-item {
+  color: white;
+}
+
+.sidebar .nav-item .collapse .collapse-inner .collapse-item:hover,
+.sidebar .nav-item .collapsing .collapse-inner .collapse-item:hover {
+  background-color: darkred;
+}
