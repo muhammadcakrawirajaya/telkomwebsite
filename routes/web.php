@@ -13,3 +13,7 @@ Route::get('/dashboard', function () {
 Route::get('/submenu3.1.1', function () {
     return view('menus.submenu3_1_1');
 })->name('submenu3_1_1');
+
+Route::get('/manage_user', function () {
+    return view('crud.user');
+})->name('manage_user');
